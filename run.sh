@@ -11,5 +11,5 @@ cd student-enrolment-rest
 docker build -t jhaprabhatt/student_enrollment .
 
 # Run Docker image
-docker run -p 8080:8080 -t jhaprabhatt/student_enrollment
+docker run -p 9090:9090 -t jhaprabhatt/student_enrollment
 
