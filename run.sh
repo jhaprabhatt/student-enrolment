@@ -8,7 +8,7 @@ cd student-enrolment
 ./mvnw clean package
 
 cd student-enrolment-rest
-docker build -t jhaprabhatt/studen_enrollment .
+docker build -t jhaprabhatt/student_enrollment .
 
 # Run Docker image
 docker run -p 8080:8080 -t jhaprabhatt/student_enrollment
