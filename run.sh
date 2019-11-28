@@ -1,7 +1,7 @@
 echo "Downloading code to: $PWD"
 
 # Get Code
-git clone https://github.com/jhaprabhatt/student_enrolment.git
+git clone https://github.com/jhaprabhatt/student-enrolment.git
 cd student_enrolment
 
 # Build Code
