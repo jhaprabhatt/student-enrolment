@@ -21,6 +21,12 @@ A basic Spring boot application to showcase different HTTP methods usage for Stu
 ## Running Application as Docker Image on Local Machine
 Run run.sh. It will download the code and build it locally. A docker image is started automatically
 
+```shell script
+curl -o run.sh 'https://raw.githubusercontent.com/jhaprabhatt/student-enrolment/master/run.sh'
+chmod +x run.sh
+./run.sh
+```
+
 ## Swagger API Documentation
 
 http://localhost:8080/swagger-ui.html
