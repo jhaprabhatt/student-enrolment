@@ -2,12 +2,12 @@ echo "Downloading code to: $PWD"
 
 # Get Code
 git clone https://github.com/jhaprabhatt/student-enrolment.git
-cd student_enrolment
+cd student-enrolment
 
 # Build Code
 ./mvnw clean package
 
-cd student_enrolment-rest
+cd student-enrolment-rest
 docker build -t jhaprabhatt/student_enrollment .
 
 # Run Docker image
